@@ -2,7 +2,7 @@
 ### Final Year MCA Project | Advanced Medical Imaging & Education Platform
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
-![Tech Stack](https://img.shields.io/badge/Stack-MERN%20%2B%20FastAPI%20%2B%20TensorFlow-blue)
+![Tech Stack](https://img.shields.io/badge/Stack-React%20%2B%20FastAPI%20%2B%20TensorFlow%20%2B%20MongoDB-blue)
 ![Batch](https://img.shields.io/badge/Batch-2025-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Made with](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red)
@@ -182,12 +182,11 @@ The platform serves two distinct user groups:
 ### 2. Backend Setup
 Navigate to the backend folder and install dependencies.
 
-```bash
 cd backend_simple
 # Create virtual environment (Optional but recommended)
 python -m venv venv
-# Activate venv (Windows)
-.\venv\Scripts\activate 
+# Activate venv (Windows)(For backend)
+.\venv_tf219\Scripts\Activate.ps1
 
 # Install requirements
-pip install -r requirements.txt
+pip install -r requirements.
