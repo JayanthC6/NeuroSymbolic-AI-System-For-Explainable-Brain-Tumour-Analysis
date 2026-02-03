@@ -38,20 +38,137 @@ The platform serves two distinct user groups:
 
 ---
 
+
+## 🖼️ Project Screenshots
+
+### 🔐 Login Interface
+![Login Page](screenshots/login.png)
+*Secure authentication for doctors and students*
+
+### 🏥 Doctor Dashboard
+![Doctor Dashboard](screenshots/Doctor%20Dashboard.png)
+*Main interface for clinicians with patient management and AI analysis*
+
+### 🧠 AI-Powered Diagnosis & Analysis
+![MRI Analysis](screenshots/Analysis%20page.png)
+*Real-time tumor classification with confidence scores*
+
+![Detailed Analysis](screenshots/Analysis%20page%202.png)
+*Comprehensive AI analysis with segmentation and heatmaps*
+
+### 🤖 Neurosymbolic Reasoning
+![Tumor Classification](screenshots/Tumour%20Classification%20and%20reasoning.png)
+*AI-powered tumor classification with symbolic reasoning*
+
+![Classification Details](screenshots/Tumour%20Classificationa%20dn%20reasoning%202.png)
+*Detailed reasoning and treatment recommendations*
+
+### � Multi-Modal Analysis
+![Multi-Modal AI](screenshots/Multi-modal%20analysis.png)
+*Integration of MRI imaging with genetic data*
+
+![Genomic Analysis](screenshots/mutli-modal%20analysis%202.png)
+*Genetic markers and molecular profiling*
+
+### 🔍 System Pipeline & Architecture
+![System Pipeline](screenshots/System%20Pipeline.png)
+*End-to-end AI processing pipeline visualization*
+
+### 📊 3D Neural Network Visualization
+![3D Brain Architecture](screenshots/3D%20Brain%20Explanation.png)
+*Interactive 3D visualization of neural network architecture*
+
+![3D Brain Details](screenshots/3D%20Brain%20Explanation2.png)
+*Detailed layer-by-layer network explanation*
+
+### 📈 Patient Tracking & Comparison
+![Patient Graphs](screenshots/Graph%20of%20patients.png)
+*Longitudinal patient data and treatment progress*
+
+![Before/After Comparison](screenshots/comaprison%20page.png)
+*Side-by-side scan comparison with growth analysis*
+
+### 🎓 Educational Features
+
+#### Brain Anatomy Learning
+![Brain Cells](screenshots/Brain%20cells.png)
+*Interactive brain anatomy and cell structure education*
+
+#### Tumor Types Library
+![Tumor Types](screenshots/Tumours%20Types%20page.png)
+*Comprehensive tumor classification library*
+
+![Tumor Details](screenshots/Tumour%20Types%20page%202.png)
+*Detailed tumor characteristics and pathology*
+
+#### Diagnosis Quiz Challenge
+![Interactive Quiz](screenshots/Diagonisis%20quiz.png)
+*Gamified learning with real-time feedback and IoU scoring*
+
+#### Interns Learning Hub
+![Learning Platform](screenshots/Interns%20leaning%20page.png)
+*Dedicated training module for medical students*
+
+### 🤖 NeuroEdu AI Chatbot
+![AI Chatbot](screenshots/chatbot.png)
+*Google Gemini-powered educational assistant for medical queries*
+
+### 🌐 Federated Learning Hub
+![Federated Learning](screenshots/federated%20learnign%20hub.png)
+*Collaborative multi-institutional AI training platform*
+
+
 ## 🛠️ Tech Stack
 
-### **Frontend**
-* **Framework:** React.js (v18)
-* **Styling:** Tailwind CSS (Glassmorphism UI)
-* **Visualization:** Chart.js (Progress charts), HTML5 Canvas (Mask editing/Drawing)
-* **Reporting:** jsPDF, html2canvas, Web Speech API
+### **Frontend (React.js)**
+* **Framework:** React.js v19.2.0
+* **UI Library:** Tailwind CSS v3.4 (Glassmorphism design)
+* **State Management:** React Hooks, Context API
+* **HTTP Client:** Axios v1.13
+* **Data Visualization:** 
+  - Chart.js v4.5 (Patient progress charts)
+  - React-ChartJS-2 v5.3 (React integration)
+  - HTML5 Canvas (Interactive mask editing & drawing)
+* **PDF Generation:** jsPDF v3.0, html2canvas v1.4
+* **Audio:** Web Speech API (Text-to-Speech reports)
+* **Testing:** Jest, React Testing Library
 
-### **Backend**
-* **Framework:** FastAPI (Python)
-* **AI/ML:** TensorFlow, OpenCV, NumPy, Pillow
-* **Medical Data:** Pydicom (DICOM processing)
-* **Database:** MongoDB (Motor Asyncio)
-* **LLM Integration:** OpenAI API (GPT-4o-mini)
+### **Backend (FastAPI + Python)**
+* **Framework:** FastAPI v0.120 (Async Python web framework)
+* **Server:** Uvicorn v0.38 (ASGI server)
+* **Database:** 
+  - MongoDB (NoSQL database)
+  - Motor v3.7 (Async MongoDB driver)
+  - PyMongo v4.15
+* **Authentication & Security:**
+  - Python-JOSE v3.5 (JWT tokens)
+  - Passlib v1.7 (Password hashing)
+  - Bcrypt v5.0
+  - Cryptography v46.0
+
+### **Machine Learning & AI**
+* **Deep Learning Framework:** TensorFlow v2.19.0
+* **Neural Network Library:** Keras v3.11
+* **Model Architectures:**
+  - VGG16 (Transfer learning for classification)
+  - U-Net (Tumor segmentation)
+  - Grad-CAM (Explainable AI visualization)
+* **Computer Vision:** 
+  - OpenCV v4.12 (Image processing)
+  - Pillow v12.0 (Image manipulation)
+* **Scientific Computing:**
+  - NumPy v2.1.3 (Numerical operations)
+  - SciPy v1.16.2 (Scientific algorithms)
+  - Scikit-learn v1.7.2 (ML utilities)
+* **Medical Imaging:** Pydicom (DICOM file processing)
+* **LLM Integration:** Google Generative AI (Gemini 2.5 Flash for NeuroEdu Bot)
+
+### **Development & Deployment**
+* **Version Control:** Git, GitHub
+* **Package Managers:** npm (Frontend), pip (Backend)
+* **Environment Management:** Python venv, dotenv
+* **API Documentation:** FastAPI auto-generated Swagger/OpenAPI
+* **Logging:** Python logging, Rich v14.2 (Terminal formatting)
 
 ---
 
