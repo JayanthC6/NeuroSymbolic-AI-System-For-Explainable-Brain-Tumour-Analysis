@@ -117,7 +117,8 @@ The platform serves two distinct user groups:
 ![Federated Learning](screenshots/federated%20learnign%20hub.png)
 *Collaborative multi-institutional AI training platform*
 
-
+## Results
+Achieved 90% accuracy on MRI dataset using CNN model
 ## 🛠️ Tech Stack
 
 ### **Frontend (React.js)**
