@@ -21,7 +21,20 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/token")
 
 def verify_password(plain_password, hashed_password):
     """Verifies a plain password against a hashed one."""
-    return pwd_context.verify(plain_password, hashed_password)
+    try:
+        return pwd_context.verify(plain_password, hashed_password)
+    except Exception as e:
+        # Fallback for environments where passlib+bcrypt backend probing fails.
+        print(f"Password verify fallback triggered: {e}")
+        try:
+            import bcrypt
+
+            return bcrypt.checkpw(
+                plain_password.encode("utf-8"),
+                hashed_password.encode("utf-8")
+            )
+        except Exception:
+            return False
 
 def get_password_hash(password):
     """Hashes a plain password."""

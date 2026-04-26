@@ -173,8 +173,7 @@ Achieved 90% accuracy on MRI dataset using CNN model
 
 ---
 
-## ⚙️ Installation & Setup
-
+## ⚙️ Installation & Setup 
 ### 1. Prerequisites
 * Python 3.9+
 * Node.js & npm
@@ -191,3 +190,8 @@ python -m venv venv
 
 # Install requirements
 pip install -r requirements.
+
+#to run the backend( & c:/Users/jayanth/AI_Visualizer_Project/venv_tf219/Scripts/Activate.ps1)
+uvicorn backend_simple.main:app --reload
+
+#to run frontend(cd frontend_simple & cd visualizer & npm start)
