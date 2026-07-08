@@ -16,9 +16,9 @@ The platform serves two distinct user groups:
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 🏥 For Doctors (Clinical Support)
+### For Doctors (Clinical Support)
 * **Multi-Modal AI Analysis:**
     * **CNN (VGG16):** Classifies tumor type with high accuracy.
     * **U-Net:** Generates pixel-perfect segmentation masks.
@@ -30,7 +30,7 @@ The platform serves two distinct user groups:
 * **Reporting:** Automated PDF generation and Text-to-Speech audio summaries.
 * **DICOM Support:** Handles professional medical imaging formats (`.dcm`) alongside standard images.
 
-### 🎓 For Students (Education)
+### For Students (Education)
 * **Interactive Learning Lab:** A dedicated module to learn brain anatomy and tumor pathology.
 * **3D Neural Visualization:** Real-time simulation of the AI's neural network architecture.
 * **Diagnosis Challenge:** A gamified module where students draw the tumor boundary and get an **IoU Accuracy Score** against the AI.
@@ -39,56 +39,56 @@ The platform serves two distinct user groups:
 ---
 
 
-## 🖼️ Project Screenshots
+## Project Screenshots
 
-### 🔐 Login Interface
+### Login Interface
 ![Login Page](screenshots/login.png)
 *Secure authentication for doctors and students*
 
-### 🏥 Doctor Dashboard
+### Doctor Dashboard
 ![Doctor Dashboard](screenshots/Doctor%20Dashboard.png)
 *Main interface for clinicians with patient management and AI analysis*
 
-### 🧠 AI-Powered Diagnosis & Analysis
+### AI-Powered Diagnosis & Analysis
 ![MRI Analysis](screenshots/Analysis%20page.png)
 *Real-time tumor classification with confidence scores*
 
 ![Detailed Analysis](screenshots/Analysis%20page%202.png)
 *Comprehensive AI analysis with segmentation and heatmaps*
 
-### 🤖 Neurosymbolic Reasoning
+### Neurosymbolic Reasoning
 ![Tumor Classification](screenshots/Tumour%20Classification%20and%20reasoning.png)
 *AI-powered tumor classification with symbolic reasoning*
 
 ![Classification Details](screenshots/Tumour%20Classificationa%20dn%20reasoning%202.png)
 *Detailed reasoning and treatment recommendations*
 
-### � Multi-Modal Analysis
+### Multi-Modal Analysis
 ![Multi-Modal AI](screenshots/Multi-modal%20analysis.png)
 *Integration of MRI imaging with genetic data*
 
 ![Genomic Analysis](screenshots/mutli-modal%20analysis%202.png)
 *Genetic markers and molecular profiling*
 
-### 🔍 System Pipeline & Architecture
+### System Pipeline & Architecture
 ![System Pipeline](screenshots/System%20Pipeline.png)
 *End-to-end AI processing pipeline visualization*
 
-### 📊 3D Neural Network Visualization
+### 3D Neural Network Visualization
 ![3D Brain Architecture](screenshots/3D%20Brain%20Explanation.png)
 *Interactive 3D visualization of neural network architecture*
 
 ![3D Brain Details](screenshots/3D%20Brain%20Explanation2.png)
 *Detailed layer-by-layer network explanation*
 
-### 📈 Patient Tracking & Comparison
+### Patient Tracking & Comparison
 ![Patient Graphs](screenshots/Graph%20of%20patients.png)
 *Longitudinal patient data and treatment progress*
 
 ![Before/After Comparison](screenshots/comaprison%20page.png)
 *Side-by-side scan comparison with growth analysis*
 
-### 🎓 Educational Features
+### Educational Features
 
 #### Brain Anatomy Learning
 ![Brain Cells](screenshots/Brain%20cells.png)
@@ -109,17 +109,17 @@ The platform serves two distinct user groups:
 ![Learning Platform](screenshots/Interns%20leaning%20page.png)
 *Dedicated training module for medical students*
 
-### 🤖 NeuroEdu AI Chatbot
+### NeuroEdu AI Chatbot
 ![AI Chatbot](screenshots/chatbot.png)
 *Google Gemini-powered educational assistant for medical queries*
 
-### 🌐 Federated Learning Hub
+### Federated Learning Hub
 ![Federated Learning](screenshots/federated%20learnign%20hub.png)
 *Collaborative multi-institutional AI training platform*
 
 ## Results
 Achieved 90% accuracy on MRI dataset using CNN model
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### **Frontend (React.js)**
 * **Framework:** React.js v19.2.0
@@ -173,7 +173,7 @@ Achieved 90% accuracy on MRI dataset using CNN model
 
 ---
 
-## ⚙️ Installation & Setup 
+## Installation & Setup 
 ### 1. Prerequisites
 * Python 3.9+
 * Node.js & npm
