@@ -1,4 +1,4 @@
-# 🧠 Neurosymbolic AI for Explainable Brain Tumor Diagnosis
+# Neurosymbolic AI for Explainable Brain Tumor Diagnosis
 ### Final Year MCA Project | Advanced Medical Imaging & Education Platform
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Made with](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red)
 
-## 📖 Abstract
+## Abstract
 This project implements a **Neurosymbolic Artificial Intelligence** system to diagnose brain tumors (Glioma, Meningioma, Pituitary) from MRI scans. Unlike traditional "Black Box" AI models, this system combines **Deep Learning (Neuro)** for visual perception with **Symbolic Logic (Symbolic)** for reasoning.
 
 The platform serves two distinct user groups:
